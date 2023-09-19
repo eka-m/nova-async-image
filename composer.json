@@ -1,7 +1,7 @@
 {
     "name": "eka/async-image",
     "description": "A Laravel Nova field for async uploading images.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": [
         "laravel",
         "nova",
