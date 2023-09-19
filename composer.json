@@ -1,0 +1,40 @@
+{
+    "name": "eka/async-image",
+    "description": "A Laravel Nova field for async uploading images.",
+    "version": "1.0.2",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "image"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ekhtiram Mammadkarimov",
+            "email": "memmedkerimov@gmail.com",
+            "homepage": "https://github.com/eka-m"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eka\\AsyncImage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eka\\AsyncImage\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
